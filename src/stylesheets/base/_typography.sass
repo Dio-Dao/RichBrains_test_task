@@ -1,0 +1,86 @@
+body,
+button,
+input,
+select,
+textarea
+    color: #404040
+    font-family: 'Helvetica', Arial, sans-serif
+    font-size: 18px
+    line-height: 1.5
+
+h1,
+h2,
+h3
+    margin: 0
+    padding: 1em 0
+
+p
+    margin: 0
+    padding: 1em 0
+.header
+    &__title
+        line-height: 46px
+        font-size: 30px
+        font-family: Playfair Display
+.item
+    &__subtitle
+        color: #259609
+        font-size: 13px
+        line-height: 20px
+        text-align: center
+    &__title
+        font-size: 20px
+        line-height: 30px
+        color: #3E3E3E
+        font-weight: 600
+    &__status,
+    &__date
+        padding-left: 30px
+        font-size: 14px
+        line-height: 16px
+.active
+    background-color: #259609
+    .item
+        &__title,
+        &__subtitle,
+        &__text,
+        &__price
+            color: #fff
+            line-height: 22px
+        &__title,
+            font-size: 16px
+        &__subtitle
+            font-size: 14px
+            font-weight: 600
+        &__text
+            font-weight: normal
+        &__price
+            font-size: 32px
+            line-height: 44px
+.sidebar
+    &__title
+        color: #259609
+        font-size: 13px
+        line-height: 20px
+    &__nav
+        font-size: 16px
+        line-height: 22x
+        color: #3E3E3E
+        font-weight: 600
+    &__item
+        font-size: 14px
+        line-height: 22x
+        font-weight: 400
+
+@media (max-width: 600px)
+    .item
+        &__title
+            font-size: 16px
+            line-height: 22px
+    .header
+        &__button-container
+            .main__button
+                font-size: 16px
+                line-height: 22x
+                font-weight: 500
+                color: #000
